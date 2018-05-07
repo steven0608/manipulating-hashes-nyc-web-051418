@@ -6,10 +6,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-items=[]
+
   #code your solution here!
-groceries.values.each do |x|
-items << x
-end
-items
+  groceries.each do |Key|
+    key.values
+  end
+
 end
