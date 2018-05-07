@@ -6,9 +6,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
+items=[]
   #code your solution here!
 groceries.values.collect do |x|
-x
+items << x
 end
 
 end
