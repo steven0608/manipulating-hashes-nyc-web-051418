@@ -14,14 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts.each do |name,data|
-  data.each do |attribute,value|
-    if attribute == [:favorite_icecream_flavors]
-      value.select do |x| x!="strawberry"
-      end
-    end
-  end
-end
+contacts["Freddy Mercury"][:favorite_icecream_flavors].shift
 
   #remember to return your newly altered contacts hash!
   contacts
